@@ -2,8 +2,6 @@
 
 A modern, responsive data tables application built with React, Next.js, TypeScript, and Redux Toolkit.
 
-![Data Tables Application](/placeholder.svg?height=400&width=800)
-
 ## Author
 
 **Emin Aryan**
