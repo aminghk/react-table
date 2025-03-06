@@ -113,36 +113,6 @@ export default function Home() {
 }
 
 
-Thought for 1 second```markdown project="React Data Tables" file="README.md"
-...
-```
-
-├── app/                     # Next.js application routes
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Home page
-│   ├── users/               # Users page route
-│   └── products/            # Products page route
-├── components/              # Reusable UI components
-│   ├── DataTable.tsx        # Main data table component
-│   ├── Filters.tsx          # Filter input components
-│   ├── PageSizeSelector.tsx # Page size dropdown
-│   ├── Pagination.tsx       # Pagination controls
-│   ├── TableControls.tsx    # Table header controls
-│   └── Tabs.tsx             # Tab navigation component
-├── redux/                   # Redux state management
-│   ├── features/            # Redux slices and reducers
-│   │   ├── usersSlice.ts    # Users state management
-│   │   └── productsSlice.ts # Products state management
-│   ├── hooks.ts             # Redux custom hooks
-│   ├── provider.tsx         # Redux provider component
-│   └── store.ts             # Redux store configuration
-├── public/                  # Static assets
-│   └── fonts/               # Custom font files
-├── tailwind.config.js       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Project dependencies
-
-```plaintext
 
 ## Component Breakdown
 
@@ -222,36 +192,6 @@ export default function DataTable({ data, columns, loading, error, searchTerm }:
   // Rendering logic...
 }
 
-Thought for 1 second```markdown project="React Data Tables" file="README.md"
-...
-```
-
-├── app/                     # Next.js application routes
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Home page
-│   ├── users/               # Users page route
-│   └── products/            # Products page route
-├── components/              # Reusable UI components
-│   ├── DataTable.tsx        # Main data table component
-│   ├── Filters.tsx          # Filter input components
-│   ├── PageSizeSelector.tsx # Page size dropdown
-│   ├── Pagination.tsx       # Pagination controls
-│   ├── TableControls.tsx    # Table header controls
-│   └── Tabs.tsx             # Tab navigation component
-├── redux/                   # Redux state management
-│   ├── features/            # Redux slices and reducers
-│   │   ├── usersSlice.ts    # Users state management
-│   │   └── productsSlice.ts # Products state management
-│   ├── hooks.ts             # Redux custom hooks
-│   ├── provider.tsx         # Redux provider component
-│   └── store.ts             # Redux store configuration
-├── public/                  # Static assets
-│   └── fonts/               # Custom font files
-├── tailwind.config.js       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Project dependencies
-
-```plaintext
 
 ## Component Breakdown
 
@@ -516,36 +456,6 @@ Features:
 - Reducers for updating state
 
 
-Thought for 1 second```markdown project="React Data Tables" file="README.md"
-...
-```
-
-├── app/                     # Next.js application routes
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Home page
-│   ├── users/               # Users page route
-│   └── products/            # Products page route
-├── components/              # Reusable UI components
-│   ├── DataTable.tsx        # Main data table component
-│   ├── Filters.tsx          # Filter input components
-│   ├── PageSizeSelector.tsx # Page size dropdown
-│   ├── Pagination.tsx       # Pagination controls
-│   ├── TableControls.tsx    # Table header controls
-│   └── Tabs.tsx             # Tab navigation component
-├── redux/                   # Redux state management
-│   ├── features/            # Redux slices and reducers
-│   │   ├── usersSlice.ts    # Users state management
-│   │   └── productsSlice.ts # Products state management
-│   ├── hooks.ts             # Redux custom hooks
-│   ├── provider.tsx         # Redux provider component
-│   └── store.ts             # Redux store configuration
-├── public/                  # Static assets
-│   └── fonts/               # Custom font files
-├── tailwind.config.js       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Project dependencies
-
-```plaintext
 
 ## Component Breakdown
 
@@ -850,37 +760,6 @@ npm run dev
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 
-
-Thought for 1 second```markdown project="React Data Tables" file="README.md"
-...
-```
-
-├── app/                     # Next.js application routes
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Home page
-│   ├── users/               # Users page route
-│   └── products/            # Products page route
-├── components/              # Reusable UI components
-│   ├── DataTable.tsx        # Main data table component
-│   ├── Filters.tsx          # Filter input components
-│   ├── PageSizeSelector.tsx # Page size dropdown
-│   ├── Pagination.tsx       # Pagination controls
-│   ├── TableControls.tsx    # Table header controls
-│   └── Tabs.tsx             # Tab navigation component
-├── redux/                   # Redux state management
-│   ├── features/            # Redux slices and reducers
-│   │   ├── usersSlice.ts    # Users state management
-│   │   └── productsSlice.ts # Products state management
-│   ├── hooks.ts             # Redux custom hooks
-│   ├── provider.tsx         # Redux provider component
-│   └── store.ts             # Redux store configuration
-├── public/                  # Static assets
-│   └── fonts/               # Custom font files
-├── tailwind.config.js       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Project dependencies
-
-```plaintext
 
 ## Component Breakdown
 
@@ -1256,36 +1135,6 @@ else if (params.brand) {
 }
 ```
 
-Thought for 1 second```markdown project="React Data Tables" file="README.md"
-...
-```
-
-├── app/                     # Next.js application routes
-│   ├── layout.tsx           # Root layout component
-│   ├── page.tsx             # Home page
-│   ├── users/               # Users page route
-│   └── products/            # Products page route
-├── components/              # Reusable UI components
-│   ├── DataTable.tsx        # Main data table component
-│   ├── Filters.tsx          # Filter input components
-│   ├── PageSizeSelector.tsx # Page size dropdown
-│   ├── Pagination.tsx       # Pagination controls
-│   ├── TableControls.tsx    # Table header controls
-│   └── Tabs.tsx             # Tab navigation component
-├── redux/                   # Redux state management
-│   ├── features/            # Redux slices and reducers
-│   │   ├── usersSlice.ts    # Users state management
-│   │   └── productsSlice.ts # Products state management
-│   ├── hooks.ts             # Redux custom hooks
-│   ├── provider.tsx         # Redux provider component
-│   └── store.ts             # Redux store configuration
-├── public/                  # Static assets
-│   └── fonts/               # Custom font files
-├── tailwind.config.js       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # Project dependencies
-
-```plaintext
 
 ## Component Breakdown
 
