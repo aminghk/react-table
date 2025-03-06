@@ -95,7 +95,6 @@ export const fetchUsers = createAsyncThunk(
         }
       }
 
-      console.log(`Fetching from: ${url}?${queryParams.toString()}`)
       const response = await axios.get(`${url}?${queryParams.toString()}`)
 
       return response.data

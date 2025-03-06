@@ -1117,19 +1117,19 @@ Example API request from `productsSlice.ts`:
 if (params.category) {
   // Category filter takes precedence
   url = `https://dummyjson.com/products/category/${params.category}`;
-  console.log(`Using category endpoint: ${url}`);
+
 } 
 else if (params.title) {
   // Title search
   url = 'https://dummyjson.com/products/search';
   queryParams.append("q", params.title);
-  console.log(`Using title search: ${url}`);
+
 }
 else if (params.brand) {
   // Brand search
   url = 'https://dummyjson.com/products/search';
   queryParams.append("q", params.brand);
-  console.log(`Using brand search: ${url}`);
+
 }
 ```
 
@@ -1492,19 +1492,19 @@ Example API request from `productsSlice.ts`:
 if (params.category) {
   // Category filter takes precedence
   url = `https://dummyjson.com/products/category/${params.category}`;
-  console.log(`Using category endpoint: ${url}`);
+
 } 
 else if (params.title) {
   // Title search
   url = 'https://dummyjson.com/products/search';
   queryParams.append("q", params.title);
-  console.log(`Using title search: ${url}`);
+
 }
 else if (params.brand) {
   // Brand search
   url = 'https://dummyjson.com/products/search';
   queryParams.append("q", params.brand);
-  console.log(`Using brand search: ${url}`);
+
 }
 ```
 

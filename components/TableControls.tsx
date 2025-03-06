@@ -44,17 +44,16 @@ export default function TableControls({
 
   const handleFilterApply = (key: string) => {
     const value = filterValues[key] || ""
-    console.log(`Applying filter: ${key} = ${value}`)
 
     // Update filter badges - only show badge for the current filter
-    const newBadges = {}
+    const newBadges: Record<string, boolean> = {}
     if (value) {
       newBadges[key] = true
     }
     setActiveFilterBadges(newBadges)
 
     // Clear ALL filter values, then set only the current one if it has a value
-    const newFilterValues = {}
+    const newFilterValues: Record<string, string> = {}
     if (value) {
       newFilterValues[key] = value
     }

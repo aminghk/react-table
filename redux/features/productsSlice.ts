@@ -57,7 +57,7 @@ export const fetchProducts = createAsyncThunk(
       const skip = (params.page - 1) * params.limit
 
       // Log the full params received by the thunk
-      console.log("Thunk received params:", params)
+
 
       // Build base URL and query params
       let url = "https://dummyjson.com/products"
@@ -69,24 +69,24 @@ export const fetchProducts = createAsyncThunk(
       if (params.category) {
         // Category filter takes precedence
         url = `https://dummyjson.com/products/category/${params.category}`
-        console.log(`Using category endpoint: ${url}`)
+
       } else if (params.title) {
         // Title search
         url = "https://dummyjson.com/products/search"
         queryParams.append("q", params.title)
-        console.log(`Using title search: ${url}`)
+
       } else if (params.brand) {
         // Brand search
         url = "https://dummyjson.com/products/search"
         queryParams.append("q", params.brand)
-        console.log(`Using brand search: ${url}`)
+
       }
 
       const finalUrl = `${url}?${queryParams.toString()}`
-      console.log(`Final API URL: ${finalUrl}`)
+
 
       const response = await axios.get(finalUrl)
-      console.log("API response received")
+
 
       return response.data
     } catch (error) {

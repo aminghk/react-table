@@ -18,9 +18,9 @@ export default function ProductsPage() {
     (state) => state.products,
   )
 
-  // Fetch products when parameters change
+
   useEffect(() => {
-    const requestParams = {
+    const requestParams: { page: number; limit: number; category?: string; brand?: string; title?: string } = {
       page: currentPage,
       limit: pageSize,
     }
@@ -33,13 +33,9 @@ export default function ProductsPage() {
       requestParams.title = activeFilters.title
     }
 
-    // If we're on a specific category tab, add that instead
     if (category !== "ALL" && !activeFilters.category) {
       requestParams.category = category
     }
-
-    console.log("Fetching products with filters:", activeFilters)
-    console.log("Full request params:", requestParams)
 
     dispatch(fetchProducts(requestParams))
   }, [dispatch, currentPage, pageSize, activeFilters, category])
@@ -67,7 +63,6 @@ export default function ProductsPage() {
   ]
 
   const handleFilterChange = (key: string, value: string) => {
-    console.log(`Filter applied: ${key} = ${value}`)
 
     if (value) {
       // Automatically switch to "ALL" tab when applying a category filter
