@@ -1,3 +1,7 @@
+
+# Live version
+https://react-table-sigma-drab.vercel.app/
+
 # React Data Tables
 
 A modern, responsive data tables application built with React, Next.js, TypeScript, and Redux Toolkit.
